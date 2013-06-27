@@ -1,0 +1,9 @@
+RewriteEngine on
+# For security reasons, Option follow symlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+# RewriteBase /
+# RewriteCond %{REQUEST_URI} !^/robots\.txt$
+# RewriteCond %{HTTP_HOST}   !^www\.oldtimerecipes\.us [NC]
+# RewriteCond %{HTTP_HOST}   !^$
+# RewriteRule ^(.*)         http://www.oldtimerecipes.us/$1 [L,R=301]

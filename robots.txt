@@ -1,0 +1,4 @@
+sitemap: http://cdn.attracta.com/sitemap/273650.xml.gz
+
+sitemap: http://cdn.attracta.com/sitemap/273650.xml.gz
+
